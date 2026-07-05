@@ -1,6 +1,6 @@
 # Stall Detection with a 1D Convolutional Neural Network
 
-> **University project** — a graded individual assignment from my studies at TU Berlin. This repository is published **for demonstration purposes only** (e.g., as a portfolio reference in job applications). See [Disclaimer & License](#disclaimer--license) — no permission is granted to use or copy any of its contents.
+> **University project** — a graded individual assignment from my studies at TU Berlin. This repository is published **for demonstration purposes only**. See [Disclaimer & License](#disclaimer--license) — no permission is granted to use or copy any of its contents.
 
 ## Task
 
@@ -39,8 +39,6 @@ Input (1400, 1)
 → Dense(1, sigmoid)
 ```
 
-The unusual name of the output layer encodes my university e-mail address — this was a required part of the assignment's submission format (an evaluation script parsed the student's identity from the layer name).
-
 ## Results
 
 | Metric | Value |
@@ -67,7 +65,7 @@ Identified possible improvements (see presentation): a smaller architecture reac
 
 ## Dataset — intentionally not included
 
-The dataset (`student_task_adl_prepared_dataset.npz`) was provided by the instructors and is **not part of this repository** and will not be shared. The scripts are therefore not runnable as-is; they expect the dataset at `data/student_task_adl_prepared_dataset.npz`. Instructor-provided evaluation code is likewise not included — only my own work is published here.
+The dataset was provided by the instructors and is **not part of this repository** and will not be shared. The scripts are therefore not runnable as-is.
 
 ## Disclaimer & License
 
