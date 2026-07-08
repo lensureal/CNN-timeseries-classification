@@ -21,6 +21,7 @@ Binary classification of univariate sensor time series: each sample is a signal 
    - [`cross_validation_pooled_threshold.py`](src/cross_validation_pooled_threshold.py): one global threshold chosen from the pooled out-of-fold validation predictions, then evaluated on the outer test folds
 6. **Stability check** — re-runs with different random seeds
 7. **Final model** — trained on all data with an 80/20 train/validation split ([`train_final_model.py`](src/train_final_model.py))
+8. **Project documentation** as a 1 min overview video [`presentation/project_presentation.mp4`](presentation/project_presentation.mp4) 
 
 To avoid data leakage, the `Normalization` layer is adapted **only on the respective training split** in every setting.
 
